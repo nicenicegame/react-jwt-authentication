@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+.App {
+  background-color: rgb(179, 206, 245);
+  min-height: 100vh;
+}
+
+header {
+  min-height: 15vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+form {
+  min-height: 30vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.form-control {
+  display: flex;
+  flex-direction: column;
+  padding: 0.25rem;
+  width: 250px;
+}
+
+.form-control input {
+  width: 100%;
+  border: none;
+  border: 2px solid rgb(7, 7, 187);
+  border-radius: 5px;
+  padding: 10px 10px;
+  font-family: inherit;
+}
+
+.form-control label {
+  padding: 0.5rem 0;
+}
+
+.btn-group {
+  width: 500px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding-top: 1.5rem;
+}
+
+button {
+  padding: 0.5rem 3rem;
+  border: none;
+  color: white;
+  background: rgb(120, 78, 218);
+  border-radius: 5px;
+}
+
+.users {
+  min-height: 50vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 1rem 0;
+}
+
+.users-list {
+  margin-top: 1rem;
+  max-height: 300px;
+  overflow: auto;
+}
+
+.user {
+  padding: 2rem;
+  background: cornflowerblue;
+  margin-bottom: 1rem;
+  border-radius: 5px;
+  width: 400px;
+}
